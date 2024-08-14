@@ -1,0 +1,13 @@
+{
+  "account_groups": {
+    "tech_news": ["@TechCrunch", "@WIRED", "@TheVerge"],
+    "space_exploration": ["@NASA", "@SpaceX", "@ESA"]
+  },
+  "llm_instructions": {
+    "tech_news": "Summarize the key points of the tech news article in bullet points. Extract any mentioned product names, companies, and technologies.",
+    "space_exploration": "Provide a brief summary of the space-related news or announcement. Include any mentioned celestial bodies, spacecraft, or scientific discoveries."
+  },
+  "output_format": "json",
+  "output_destination": "./output/processed_tweets.json",
+  "update_interval": 300
+}

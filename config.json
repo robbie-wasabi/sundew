@@ -1,0 +1,20 @@
+{
+  "account_groups": {
+    "tech_news": [
+      "@iruletheworldmo",
+      "@skirano",
+      "@DaveShapi",
+      "@pmddomingos",
+      "@mckaywrigley",
+      "@geoffreyhinton",
+      "@teortaxesTex",
+      "@rowancheung"
+    ]
+  },
+  "llm_instructions": {
+    "tech_news": "Summarize the key points of the tech news article in bullet points. Extract any mentioned product names, companies, and technologies."
+  },
+  "output_format": "json",
+  "output_destination": "./output/processed_tweets.json",
+  "update_interval": 300
+}
